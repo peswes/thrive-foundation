@@ -789,6 +789,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   z-index: 1;
+ 
 }
 
 .hero .slider-item {
@@ -823,6 +824,27 @@ body {
   user-select: none;
   z-index: -1;
 }
+.hero .slider-bg1
+{
+  background:   linear-gradient(rgba(129, 83, 4, 0.5), rgb(109, 84, 1)),   
+  url(../images/pexels-aderawilson-15538208\ \(1\).jpg) center/cover no-repeat;
+}
+.hero .slider-bg2
+{
+  background:   linear-gradient(rgba(129, 83, 4, 0.5), rgb(109, 84, 1)),   
+  url(../images/pexels-biola-visuals-415017893-20285987.jpg) center/cover no-repeat;
+}
+.hero .slider-bg3
+{
+  background:   linear-gradient(rgba(129, 83, 4, 0.5), rgb(109, 84, 1)),   
+  url(../images/pexels-illustrate-digital-ug-924569584-28100858.jpg) center/cover no-repeat;
+}
+.hero .slider-bg4
+{
+  background:   linear-gradient(rgba(129, 83, 4, 0.5), rgb(109, 84, 1)),   
+  url(../images/pexels-kwakugriffn-14554003.jpg) center/cover no-repeat;
+}
+
 
 .hero .slider-item.active .slider-bg {
   animation: smoothScale 7s linear forwards;
